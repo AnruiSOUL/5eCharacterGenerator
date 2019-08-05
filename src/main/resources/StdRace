@@ -1,0 +1,18 @@
+{
+    "race": [
+        {
+            "name": "Dwarf",
+            "subrace": ["Mountain","Hill"],
+            "asi": ["Constitution", "2"],
+            "ageRange": [50, 350],
+            "alignment":["Lawful", "Good"],
+            "size": "Medium",
+            "heightRange": [4, 5],
+            "weight": 150,
+            "speed": 25,
+            "languages": ["Common", "Dwarvish"],
+            "vision": "Darkvision",
+            "racialTraits": ["Dwarven Resilience", "Dwarven Combat Training", "Tool Proficiency", "Stonecunning"]
+        }
+    ]
+}
