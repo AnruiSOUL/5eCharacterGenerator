@@ -1,0 +1,67 @@
+{
+    "race": [
+                {
+                  "name": "Dwarf",
+                  "subrace": ["Hill"],
+                  "asi": [["Wisdom", "1"]],
+                  "racialTraits": ["Dwarven Toughness"]
+                },
+                {
+                  "name": "Dwarf",
+                  "subrace": ["Mountain"],
+                  "asi": [["Strength", "2"]],
+                  "racialTraits": ["Dwarven Armor Training"]
+                },
+                {
+                  "name": "Elf",
+                  "subrace": ["High"],
+                  "asi": [["Intelligence", "1"]],
+                  "racialTraits": ["Elf Weapon Training", "Cantrip"]
+                },
+                {
+                  "name": "Elf",
+                  "subrace": ["Wood"],
+                  "asi": [["Wisdom", "1"]],
+                  "speed": 35,
+                  "languages": ["Choice"],
+                  "racialTraits": ["Elf Weapon Training", "Fleet of Foot", "Mask of the Wild"]
+                },
+                {
+                  "name": "Elf",
+                  "subrace": ["Drow"],
+                  "asi": [["Charisma", "1"]],
+                  "vision": "Superior Darkvision",
+                  "racialTraits": ["Sunlight Sensitivity", "Draw Magic", "Drow Weapon Training"]
+                },
+                {
+                  "name": "Halfling",
+                  "subrace": ["Lightfoot"],
+                  "asi": [["Charisma", "1"]],
+                  "racialTraits": ["Naturally Stealthy"]
+                },
+                {
+                  "name": "Halfling",
+                  "subrace": ["Stout"],
+                  "asi": [["Constitution", "1"]],
+                   "racialTraits": ["Stout Resilience"]
+                },
+                {
+                  "name": "Human ",
+                  "subrace": ["Variant"],
+                  "asi": [["Choice", "1"], ["Choice", "1"]],
+                  "racialTraits": ["Skill Choice", "Feat Choice"]
+                },
+                {
+                  "name": "Gnome",
+                  "subrace": ["Forest"],
+                  "asi": [["Dexterity", "1"]],
+                  "racialTraits": ["Natural Illusionist", "Speak with Small Beasts"]
+                },
+                {
+                   "name": "Gnome",
+                   "subrace": ["Rock"],
+                   "asi": [["Constitution", "1"]],
+                   "racialTraits": ["Artificer's Lore", "Tinker"]
+                }
+               ]
+}

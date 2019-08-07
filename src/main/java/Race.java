@@ -1,11 +1,10 @@
-import org.javatuples.Pair;
 
 import java.util.ArrayList;
 
 public class Race {
     String name;
     ArrayList<String> subrace;
-    ArrayList<String> asi;
+    ArrayList<ArrayList<String>> asi;
     ArrayList<Integer> ageRange;
     ArrayList<String> alignment;
     String size;
@@ -32,11 +31,11 @@ public class Race {
         this.subrace = subrace;
     }
 
-    public ArrayList<String> getAsi() {
+    public ArrayList<ArrayList<String>> getAsi() {
         return asi;
     }
 
-    public void setAsi(ArrayList<String> asi) {
+    public void setAsi(ArrayList<ArrayList<String>> asi) {
         this.asi = asi;
     }
 

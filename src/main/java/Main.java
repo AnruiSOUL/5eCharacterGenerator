@@ -4,16 +4,21 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) throws JsonParseException, JsonMappingException, IOException {
         ObjectMapper objectMapper = new ObjectMapper();
         CreateRaceList list;
+        CreateSubRaceList subRaceList;
         FileReader fileReader = new FileReader(".\\src\\main\\resources\\StdRace");
         list = objectMapper.readValue(fileReader, CreateRaceList.class);
+        fileReader = new FileReader(".\\src\\main\\resources\\StdSubRace");
+        subRaceList = objectMapper.readValue(fileReader, CreateSubRaceList.class);
         for (Race r : list.getRace()) {
             System.out.println(r);
+        }
+        for (SubRace sr : subRaceList.getRace()){
+            System.out.println(sr);
         }
         for (String sr : list.getRace().get(0).getSubrace()) {
             System.out.println(sr);
