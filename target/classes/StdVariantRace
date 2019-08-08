@@ -1,10 +1,17 @@
 {
     "race": [
-             {
-               "name": "Human ",
-               "subrace": [],
-               "asi": [["Choice", "1"], ["Choice", "1"]],
-               "racialTraits": ["Skill Choice", "Feat Choice"]
-             }
+         {
+          "name": "Human ",
+          "asi": [["Choice", "1"], ["Choice", "1"]],
+          "ageRange": [18, 100],
+          "alignment": ["ANY", "ANY"],
+          "size": "Medium",
+          "heightRange": [5, 6],
+          "weight": 120,
+          "speed": 30,
+          "languages": ["Common", "Choice"],
+          "vision": "Standard",
+          "racialTraits": ["Skill Choice", "Feat Choice"]
+         }
      ]
 }

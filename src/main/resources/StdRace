@@ -49,8 +49,7 @@
                "weight": 120,
                "speed": 30,
                "languages": ["Common", "Choice"],
-               "vision": "Standard",
-               "racialTraits": [""]
+               "vision": "Standard"
              },
              {
                "name": "Dragonborn",
