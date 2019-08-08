@@ -2,7 +2,6 @@
     "race": [
              {
                "name": "Dwarf",
-               "subrace": ["Mountain", "Hill"],
                "asi": [["Constitution", "2"]],
                "ageRange": [50, 350],
                "alignment": ["Lawful", "Good"],
@@ -16,7 +15,6 @@
              },
              {
                "name": "Elf ",
-               "subrace": ["High", "Wood", "Drow"],
                "asi": [["Dexterity", "2"]],
                "ageRange": [100, 750],
                "alignment": ["Choatic", "Good"],
@@ -30,7 +28,6 @@
              },
              {
                "name": "Halfling",
-               "subrace": ["Lightfoot", "Stout"],
                "asi": [["Dexterity", "2"]],
                "ageRange": [20, 150],
                "alignment": ["Lawful", "Good"],
@@ -44,7 +41,6 @@
              },
              {
                "name": "Human ",
-               "subrace": ["Variant"],
                "asi": [["All", "1"]],
                "ageRange": [18, 100],
                "alignment": ["ANY", "ANY"],
@@ -58,7 +54,6 @@
              },
              {
                "name": "Dragonborn",
-               "subrace": [""],
                "asi": [["Strength", "2"], ["Charisma", "1"]],
                "ageRange": [15, 80],
                "alignment": ["ANY", "Good"],
@@ -72,7 +67,6 @@
              },
              {
                "name": "Gnome",
-               "subrace": ["Forest", "Rock"],
                "asi": [["Intelligence", "2"]],
                "ageRange": [40, 500],
                "alignment": ["ANY", "Good"],
@@ -86,7 +80,6 @@
              },
              {
                "name": "Half-Elf",
-               "subrace": [""],
                "asi": [["Charisma", "2"], ["Choice", "1"], ["Choice", "1"]],
                "ageRange": [20, 180],
                "alignment": ["Chaotic", "ANY"],
@@ -100,7 +93,6 @@
              },
              {
                "name": "Half-Orc",
-               "subrace": [""],
                "asi": [["Strength", "2"], ["Constitution", "1"]],
                "ageRange": [14, 75],
                "alignment": ["Chaotic", "ANY"],
@@ -114,7 +106,6 @@
              },
              {
                "name": "Tiefling",
-               "subrace": [""],
                "asi": [["Charisma", "2"], ["Intelligence", "1"]],
                "ageRange": [18, 100],
                "alignment": ["Chaotic", "ANY"],

@@ -1,0 +1,10 @@
+{
+    "race": [
+             {
+               "name": "Human ",
+               "subrace": [],
+               "asi": [["Choice", "1"], ["Choice", "1"]],
+               "racialTraits": ["Skill Choice", "Feat Choice"]
+             }
+     ]
+}

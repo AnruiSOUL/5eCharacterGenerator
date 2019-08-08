@@ -1,10 +1,9 @@
-
-public class SubRace extends Race {
+public class VariantRace extends Race {
 
     @Override
     public String toString() {
 
-        return "Subrace{" +
+        return "VariantRace{" +
                 "name='" + name + '\'' +
                 ", subrace='" + subrace + '\'' +
                 ", asi='" + asi + '\'' +
