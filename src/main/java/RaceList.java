@@ -1,6 +1,6 @@
 import java.util.List;
 
-class CreateRaceList {
+class RaceList {
     List<Race> race;
     public List<Race> getRace() {
         return race;

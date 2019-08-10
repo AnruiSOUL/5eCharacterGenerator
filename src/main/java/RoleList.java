@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class CreateRoleList {
+public class RoleList {
     List<Role> role;
     public List<Role> getRole() {
         return role;

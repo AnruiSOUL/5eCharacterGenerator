@@ -1,39 +1,22 @@
-import com.fasterxml.jackson.databind.ObjectMapper;
-
-import java.io.FileReader;
 import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        ObjectMapper objectMapper = new ObjectMapper();
-        CreateRaceList list,subRaceList,variantRaceList;
-        CreateRoleList roleList;
-        CreateBackgroundList backgroundList;
-        FileReader fileReader = new FileReader(".\\src\\main\\resources\\StdRace");
-        list = objectMapper.readValue(fileReader, CreateRaceList.class);
-        fileReader = new FileReader(".\\src\\main\\resources\\StdSubRace");
-        subRaceList = objectMapper.readValue(fileReader, CreateRaceList.class);
-        fileReader = new FileReader(".\\src\\main\\resources\\StdVariantRace");
-        variantRaceList = objectMapper.readValue(fileReader, CreateRaceList.class);
-        fileReader = new FileReader(".\\src\\main\\resources\\StdRole");
-        roleList = objectMapper.readValue(fileReader, CreateRoleList.class);
-        fileReader = new FileReader(".\\src\\main\\resources\\StdBackground");
-        backgroundList = objectMapper.readValue(fileReader, CreateBackgroundList.class);
-        for (Race r : list.getRace()) {
+        StdRuleSet srs = new StdRuleSet();
+        for (Race r : srs.rcl.getRace()) {
             System.out.println(r);
         }
-        for (Race sr : subRaceList.getRace()){
+        for (Race sr : srs.srl.getRace()){
             System.out.println(sr);
         }
-        for (Race sr : variantRaceList.getRace()){
-            System.out.println(sr);
+        for (Race vr : srs.vrl.getRace()){
+            System.out.println(vr);
         }
-        for (Role rl : roleList.getRole()){
+        for (Role rl : srs.rll.getRole()){
             System.out.println(rl);
         }
-        for (Background bg : backgroundList.getBackground()){
+        for (Background bg : srs.bgl.getBackground()){
             System.out.println(bg);
         }
-
     }
 }

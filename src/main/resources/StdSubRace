@@ -46,12 +46,6 @@
                    "racialTraits": ["Stout Resilience"]
                 },
                 {
-                  "name": "Human ",
-                  "subrace": ["Variant"],
-                  "asi": [["Choice", "1"], ["Choice", "1"]],
-                  "racialTraits": ["Skill Choice", "Feat Choice"]
-                },
-                {
                   "name": "Gnome",
                   "subrace": ["Forest"],
                   "asi": [["Dexterity", "1"]],
