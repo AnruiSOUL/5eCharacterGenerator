@@ -8,6 +8,7 @@ public class Main {
         ObjectMapper objectMapper = new ObjectMapper();
         CreateRaceList list,subRaceList,variantRaceList;
         CreateRoleList roleList;
+        CreateBackgroundList backgroundList;
         FileReader fileReader = new FileReader(".\\src\\main\\resources\\StdRace");
         list = objectMapper.readValue(fileReader, CreateRaceList.class);
         fileReader = new FileReader(".\\src\\main\\resources\\StdSubRace");
@@ -16,6 +17,8 @@ public class Main {
         variantRaceList = objectMapper.readValue(fileReader, CreateRaceList.class);
         fileReader = new FileReader(".\\src\\main\\resources\\StdRole");
         roleList = objectMapper.readValue(fileReader, CreateRoleList.class);
+        fileReader = new FileReader(".\\src\\main\\resources\\StdBackground");
+        backgroundList = objectMapper.readValue(fileReader, CreateBackgroundList.class);
         for (Race r : list.getRace()) {
             System.out.println(r);
         }
@@ -27,6 +30,9 @@ public class Main {
         }
         for (Role rl : roleList.getRole()){
             System.out.println(rl);
+        }
+        for (Background bg : backgroundList.getBackground()){
+            System.out.println(bg);
         }
 
     }

@@ -1,0 +1,85 @@
+{
+    "background": [
+        {
+            "name": "Acolyte",
+            "skill":["Insight", "Religion"],
+            "languages":["Choice", "Choice"],
+            "feature": "Shelter of the Faithful"
+        },
+        {
+            "name": "Charlatan",
+            "skill":["Deception", "Sleight of Hand"],
+            "tools":["Disguise Kit", "Forgery Kit"],
+            "feature": "False Identity"
+        },
+        {
+            "name": "Criminal",
+            "skill":["Deception", "Stealth"],
+            "tools":["Gaming Set", "Thieves' Tools"],
+            "feature": "Criminal Contact"
+        },
+        {
+            "name": "Entertainer",
+            "skill":["Acrobatics", "Performance"],
+            "tools":["Disguise Kit", "Musical Instrument"],
+            "feature": "By Popular Demand"
+        },
+        {
+            "name": "Folk Hero",
+            "skill":["Animal Handling", "Survival"],
+            "tools":["Artisan's Tool", "vehicles(Land)"],
+            "feature": "Rustic Hospitality"
+        },
+        {
+            "name": "Guild Artisan",
+            "skill":["Insight", "Persuasion"],
+            "tools":["Artisan's Tool"],
+            "languages": ["Choice"],
+            "feature": "Guild Membership"
+        },
+        {
+            "name": "Hermit",
+            "skill":["Medicine", "Religion"],
+            "tools":["Herbalism Kit"],
+            "languages": ["Choice"],
+            "feature": "Discovery"
+        },
+        {
+            "name": "Noble",
+            "skill":["History", "Persuasion"],
+            "tools":["Gaming Kit"],
+            "languages": ["Choice"],
+            "feature": "Position of Privilege"
+        },
+        {
+            "name": "Outlander",
+            "skill":["Athletics", "Survival"],
+            "tools":["Musical Instrument"],
+            "feature": "Wanderer"
+        },
+        {
+            "name": "Sage",
+            "skill":["Arcana", "History"],
+            "languages":["Choice", "Choice"],
+            "feature": "Researcher"
+        },
+        {
+            "name": "Sailor",
+            "skill":["Athletics", "Perception"],
+            "tools":["Navigator's Tools", "vehicles(water)"],
+            "feature": "Ship's Passage"
+        },
+        {
+            "name": "Soldier",
+            "skill":["Athletics", "Intimidation"],
+            "tools":["Gaming Set", "vehicles(land"],
+            "feature": "Military Rank"
+        },
+        {
+            "name": "Urchin",
+            "skill":["Sleight of Hand", "Stealth"],
+            "tools":["Disguise Kit", "Thieves' Tools"],
+            "feature": "City Secrets"
+        }
+    ]
+}
