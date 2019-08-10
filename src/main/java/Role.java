@@ -5,7 +5,7 @@ public class Role {
     Integer hitDie;
     ArrayList<ArrayList<String>> proficiencies;
     ArrayList<ArrayList<String>> features;
-    ArrayList<String> archetypes;
+    ArrayList<ArrayList<String>> archetypes;
 
     public String getName() {
         return name;
@@ -39,11 +39,11 @@ public class Role {
         this.features = features;
     }
 
-    public ArrayList<String> getArchetypes() {
+    public ArrayList<ArrayList<String>> getArchetypes() {
         return archetypes;
     }
 
-    public void setArchetypes(ArrayList<String> archetypes) {
+    public void setArchetypes(ArrayList<ArrayList<String>> archetypes) {
         this.archetypes = archetypes;
     }
 
